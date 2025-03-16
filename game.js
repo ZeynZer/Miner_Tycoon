@@ -73,11 +73,11 @@ buyMachineBtn.addEventListener("click", () => {
 
 // Recharge de carburant
 rechargeFuelBtn.addEventListener("click", () => {
-    if (fuel < maxFuel-10)
+    if (fuel < maxFuel-30)
     {
-        if (money >= 100) {
-            money -= 100;
-            fuel += 10;
+        if (money >= 30) {
+            money -= 30;
+            fuel += 30;
             updateDisplay();
             saveGameData();
         }
