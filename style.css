@@ -73,3 +73,7 @@ button:hover {
 input, textarea {
     user-select: text;
 }
+html, body {
+    touch-action: manipulation;
+}
+
