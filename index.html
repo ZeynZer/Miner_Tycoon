@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tycoon Minier</title>
+    <button id="resetGame">🔄 Reset </button>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tycoon Minier</h1>
+    <p>Argent : <span id="money">100</span> 💰</p>
+    
+    <div class="resources">
+        <p>Charbon : <span id="coal">0</span> ⛏️</p>
+        <p>Or : <span id="gold">0</span> 🏆</p>
+        <p>Diamant : <span id="diamond">0</span> 💎</p>
+    </div>
+
+    <button id="buyMachine">Acheter une Foreuse (50💰)</button>
+    <p>Machines : <span id="machines">0</span></p>
+
+    <h2>Carburant des machines</h2>
+    <div class="progress-bar" id="fuel-bar">
+        <div id="fuel-progress"></div>
+    </div>
+    <p id="fuel-percentage">100% Carburant</p>
+    <button id="recharge-fuel"> ⚡🔋 (30💰)</button>
+    <button id="upgradeFuel"> 🔋🔼 (50💰)</button>
+
+
+    <script src="game.js"></script>
+</body>
+</html>

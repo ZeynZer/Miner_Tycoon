@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+.progress-bar {
+    width: 80vw; /* 80% de la largeur de l'écran */
+    height: 20px;
+    background-color: #444;
+    margin: 5px auto; /* Centre horizontalement */
+    border-radius: 10px; /* Arrondir tous les coins */
+}
+
+
+
+/* Sur les petits écrans (comme les téléphones) */
+@media (max-width: 600px) {
+    .progress-bar {
+        width: 90%; /* 90% de la largeur de l'écran pour les téléphones */
+    }
+}
+
+
+#fuel-progress {
+    height: 100%;
+    background-color: green;
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+#resetGame {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#resetGame:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+#upgradeFuel {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#upgradeFuel:hover {
+    background-color: darkblue;
+}
